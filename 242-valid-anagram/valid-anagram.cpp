@@ -11,9 +11,6 @@ public:
         {
             mpp2[el]++;
         }
-        if(mpp1 == mpp2)
-        return true;
-        else
-        return false;
+        return mpp1 == mpp2;
     }
 };
